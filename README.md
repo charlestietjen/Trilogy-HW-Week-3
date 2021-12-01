@@ -5,7 +5,7 @@ Week 3's challenge was to take provided starter code for a password generator an
 
 ## Link to deployed application:
 
-[Named Link](https://charlestietjen.github.io/Trilogy-HW-Week-3/ "Deployed Application")
+[Deployed Application](https://charlestietjen.github.io/Trilogy-HW-Week-3/ "Deployed Application")
 
 ## Screenshot of deployed page:
 
