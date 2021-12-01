@@ -1,16 +1,15 @@
-# 03 JavaScript: Password Generator
+# Weekly Challenge 03 JavaScript: Password Generator
 
-Create an application that generates a random password based on user-selected criteria. The app runs in the browser and features dynamically updated HTML and CSS powered by your JavaScript code. It has a clean and polished user interface and is responsive, which ensures that it adapts to multiple screen sizes.
+Week 3's challenge was to take provided starter code for a password generator and write the functions to make it operation to the standards of the acceptance criteria below.
 
-If you are unfamiliar with special characters, take a look at some [examples of special characters on the OWASP Foundation website](https://www.owasp.org/index.php/Password_special_characters).
 
-## User Story
+## Link to deployed application:
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+[Named Link](https://charlestietjen.github.io/Trilogy-HW-Week-3/ "Deployed Application")
+
+## Screenshot of deployed page:
+
+![image](project-screenshot.png?raw=true)
 
 ## Acceptance Criteria
 
@@ -31,18 +30,3 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
-
-The following image demonstrates the application functionality:
-
-![An app window with the label Password Generator, an input field labeled Your Secure Password, and a Generate Password button.](./Assets/03-javascript-homework-demo.png)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
