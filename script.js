@@ -22,6 +22,7 @@ function generatePassword() {
   console.log(length)
   if (length < 8 || length > 128 || NaN) {
     window.alert("Invalid length selection, please try again.")
+    pw = "Invalid length selection, please try again.";
   }
   else {
     var addLC = window.confirm("Would you like lower case characters?")
@@ -47,12 +48,12 @@ function generatePassword() {
     }
     if (a.length == 0) {
       window.alert("Unable to generate password without at least one character type, please try again.")
-    }
-    else {
-      return pw;
+      pw = "Unable to generate password without at least one character type, please try again."
     }
   }
+  return pw;
 }
+
 
 // Write password to the #password input
 function writePassword() {
