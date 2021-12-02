@@ -18,7 +18,9 @@ function generatePassword() {
   var a = [];
   var pw = ""
   var length = window.prompt("How many characters between 8 and 128?")
-  if (length < 8 || length > 128) {
+  length = Number(length)
+  console.log(length)
+  if (length < 8 || length > 128 || NaN) {
     window.alert("Invalid length selection, please try again.")
   }
   else {
@@ -43,7 +45,12 @@ function generatePassword() {
       var b = Math.floor(Math.random() * a.length);
       pw += a[b];
     }
-  return pw;
+    if (a.length == 0) {
+      window.alert("Unable to generate password without at least one character type, please try again.")
+    }
+    else {
+      return pw;
+    }
   }
 }
 
